@@ -1,8 +1,6 @@
 package ru.mipt.dpqe.queue;
 
 
-import java.sql.Time;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class MSQueue<T> implements Queue<T> {
